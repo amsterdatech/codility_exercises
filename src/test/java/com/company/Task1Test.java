@@ -5,14 +5,14 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertThat;
 
-public class SolutionTest {
+public class Task1Test {
 
     @Test
     public void sample1() {
         String deckA = "A586QK";
         String deckB = "JJ653K";
 
-        int result = new Solution().solution(deckA, deckB);
+        int result = new Task1().solution(deckA, deckB);
 
         assertThat(result, Is.is(4));
     }
@@ -22,7 +22,7 @@ public class SolutionTest {
         String deckA = "23A84Q";
         String deckB = "K2Q25J";
 
-        int result = new Solution().solution(deckA, deckB);
+        int result = new Task1().solution(deckA, deckB);
 
         assertThat(result, Is.is(4));
     }

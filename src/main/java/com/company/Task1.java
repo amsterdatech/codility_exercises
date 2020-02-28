@@ -1,6 +1,6 @@
 package com.company;
 
-public class Solution {
+public class Task1 {
 
 
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Solution {
         String deckB = args[1];
 
 
-        int result = new Solution().solution(deckA, deckB);
+        int result = new Task1().solution(deckA, deckB);
         System.out.println("Result: " + result);
     }
 
